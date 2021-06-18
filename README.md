@@ -120,7 +120,7 @@ Also, to run `lm_creation.sh`, you need to install the SRILM library. To install
 ./install_srilm.sh && ./env.sh
 ```
 If `env.sh` does not run, you must make it executable with the `chmod` command.
-```
+
 
 # Training
 As last things, you have to edit two lines inside the training script with `nano local/chain/tuning/run_tdnn_1j.sh` or any other text editor:
