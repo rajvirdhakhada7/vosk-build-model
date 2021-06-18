@@ -120,16 +120,6 @@ Also, to run `lm_creation.sh`, you need to install the SRILM library. To install
 ./install_srilm.sh && ./env.sh
 ```
 If `env.sh` does not run, you must make it executable with the `chmod` command.
-Now you can create your language model with the following command:
-```
-./lm_creation.sh
-```
-
-# Alignaments and Training   
-Before you can start the actual training, you have to complete other steps such as alignment and monophonic training and so on.
-To do all this, just run this command:
-```
-./align_train.sh
 ```
 
 # Training
@@ -169,7 +159,7 @@ test_sets=”test”
 ```
 Now run the training:
 ```
-local/chain/tuning/run_tdnn_1j.sh
+./new_run.sh
 ```
 
 # Get model
